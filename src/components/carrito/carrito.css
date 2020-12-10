@@ -1,0 +1,18 @@
+.carrito {
+    color: white;
+}
+
+.imagen-producto img{
+    width: 100px;
+}
+
+.contenedor-productos{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.producto{
+    margin: 0.5rem;
+}

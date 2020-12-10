@@ -1,6 +1,7 @@
 
 import './App.css';
-import Navbar from './components/navbar';
+import Navbar from './components/navbar/navbar';
+import Velas from './components/carrito/carrito';
 
 function App() {
   return (
@@ -11,11 +12,7 @@ function App() {
       <h1>Cambalache Tiendita</h1>
       <h2>Bienvenidxs! </h2>
 
-      <section>
-        <img src='img/vela1.jpeg' />
-        <img src='img/vela2.jpeg' />
-        <img src='img/vela3.jpeg' />
-      </section>
+      <Velas />
     </div>
   );
 }

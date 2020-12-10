@@ -1,5 +1,8 @@
 
+import { GrCart } from 'react-icons/gr';
 import './navbar.css';
+
+
 
 function Navbar() {
   return (
@@ -15,6 +18,8 @@ function Navbar() {
                 <li><a href="#">Colitas</a></li>
                 <li><a href="#">Beewax wraps</a></li>
                 <li><a href="#">Pulseras</a></li>
+                <li><a href="#" className='carrito'><GrCart /></a></li>
+                
             </ul>
         </div>
     </div>
