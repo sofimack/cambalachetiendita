@@ -1,0 +1,24 @@
+.producto {
+    background-color: lightsalmon;
+    cursor: pointer;
+  }
+  
+  
+  .producto img {
+    width: 100%;
+    
+  }
+  
+  .producto div {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .producto div h3 {
+    font-size: 1rem;
+  }
+  
+  .producto div p {
+    font-size: 1rem;
+    font-weight: 600;
+  }

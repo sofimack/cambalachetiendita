@@ -1,0 +1,25 @@
+.listaProductos {
+    padding: 2rem 0;
+  }
+  
+  .listaProductos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .listaProductos ul {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+  }
+  
+  .listaProductos ul li {
+    width: 15%;  
+  }
+
+ 
+.producto{
+    margin: 0.5rem;
+}
