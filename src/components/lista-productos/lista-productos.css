@@ -17,6 +17,7 @@
   
   .listaProductos ul li {
     width: 15%;  
+    list-style: none;
   }
 
  
