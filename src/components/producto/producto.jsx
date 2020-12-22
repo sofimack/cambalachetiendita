@@ -1,5 +1,6 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import './producto.css';
+
 
 const Producto = ({titulo, precio}) => {
 
@@ -42,4 +43,6 @@ const Producto = ({titulo, precio}) => {
     )
 }
 
-export default Producto;
+export default Producto; 
+
+            
