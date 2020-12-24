@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './components/navbar/navbar';
 import ListaProductos from './components/lista-productos/lista-productos';
+import Detail from './detail/index'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <h2>Bienvenidxs! </h2>
 
       <ListaProductos />
+      <Detail />
     </div>
   );
 }
