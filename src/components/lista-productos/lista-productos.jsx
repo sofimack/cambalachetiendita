@@ -56,6 +56,7 @@ const ListaProductos = () => {
                                         <Producto
                                             titulo={items.titulo}
                                             precio={items.precio}
+                                            id={items.id}
                                         />
                                     </li>
                                 ))

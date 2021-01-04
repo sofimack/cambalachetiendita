@@ -1,8 +1,9 @@
 import {useEffect, useState} from 'react';
 import './producto.css';
+import { Link } from 'react-router-dom';
 
 
-const Producto = ({titulo, precio}) => {
+const Producto = ({titulo, precio, id}) => {
 
     const [contador, setContador] = useState(1)
 
@@ -38,7 +39,7 @@ const Producto = ({titulo, precio}) => {
                 <button onClick={() => suma() } >+</button>
             </div>
 
-            <button>Agregar al carrito</button>
+            <Link to={`detail/${id}`}> AQUI IRIA TU BOTON CON VER MAS</Link>
         </div>
     )
 }

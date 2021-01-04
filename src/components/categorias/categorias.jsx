@@ -2,7 +2,7 @@ import {useEffect} from 'react';
 import {Switch, useParams} from 'react-router-dom';
 
 const Category = () => {
-    const {categoria_nombre} = useParams();
+    const {categoria_name} = useParams();
 
     const queCategoriaEs = (cat) => {
         switch(cat) {
@@ -13,11 +13,12 @@ const Category = () => {
             default: return <p>la categoría no existe</p>
         }
     }
+    console.log (categoria_name)
 
     return (
         <>
             {
-               queCategoriaEs(categoria_nombre) 
+               queCategoriaEs(categoria_name) 
             }
         </>
     )
