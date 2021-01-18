@@ -7,9 +7,9 @@ const Category = () => {
     const queCategoriaEs = (cat) => {
         switch(cat) {
             case 'velas': return <p>Estoy en camas</p>;
-            case 'colitas': return <p>Estoy en juguetes</p>;
-            case 'wraps': return <p>Estoy en ropa</p>
-            case 'pulseras': return <p>Estoy en ropa</p>
+            case 'colitas': return <p>Estoy en colitas</p>;
+            case 'wraps': return <p>Estoy en wraps</p>
+            case 'pulseras': return <p>Estoy en pulseras</p>
             default: return <p>la categoría no existe</p>
         }
     }
