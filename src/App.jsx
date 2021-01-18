@@ -6,6 +6,8 @@ import ListaProductos from './components/lista-productos/lista-productos';
 import Detail from './detail/index';
 import Error404 from './components/Error404/error404';
 import Category from './components/categorias/categorias';
+import Footer from './components/footer/footer';
+
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Error404 />
         </Route>
       </Switch>
+
+      <Footer />
 
       
     </BrowserRouter>
